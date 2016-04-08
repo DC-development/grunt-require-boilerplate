@@ -1,4 +1,4 @@
-require (["helper/util", "helper/other"], function(util, other){
+require (["modules/util", "modules/other"], function(util, other){
 
 	//console.log(util.myObjectName);
 	newObject = new utilObject();
