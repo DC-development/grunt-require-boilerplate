@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                 options: {
                     baseUrl: "./scripts",
                     paths: {
-                        requireLib: 'libs/require'
+                        requireLib: '../node_modules/requirejs/require'
                     },
                     name: "main",
                     out: "dist/main.min.js",
