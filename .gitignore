@@ -1,3 +1,5 @@
 scripts/libs
 r.js
 main-built.js
+dist
+node_modules
