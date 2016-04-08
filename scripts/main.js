@@ -1,8 +1,9 @@
-require (["modules/util", "modules/other"], function(util, other){
+require (["modules/ball", "modules/other"], function(ball, other){
 
-	newObject = new utilObject();
+	newObject = new ball("myBall");
+	
 	console.log(newObject);
- 
+ 	
 });
 
 
