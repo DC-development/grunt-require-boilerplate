@@ -28,6 +28,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-requirejs');
 
-    grunt.registerTask('default', ['jshint', 'requirejs']);
+    grunt.registerTask('default', ['jshint', 'requirejs', 'watch']);
 
 };
