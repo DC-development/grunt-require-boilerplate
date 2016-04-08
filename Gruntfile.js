@@ -2,16 +2,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         jshint: {
-            files: ['Gruntfile.js',
-                'scripts/helper/**/*.js',
-                'scripts/util/**/*.js',
-                'scripts/*.js'
-            ],
-            options: {
-                globals: {
-                    jQuery: true
-                }
-            }
+            files: ['Gruntfile.js', 'scripts/**/*.js']
         },
         requirejs: {
             compile: {
@@ -22,7 +13,8 @@ module.exports = function(grunt) {
                     },
                     name: "main",
                     out: "dist/main.min.js",
-                    include: ["requireLib"]
+                    include: ["requireLib"],
+                    optimize: "none"
                 }
             }
         },
